@@ -1,0 +1,34 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Guess the number</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    
+    <body>
+    <div class="content">
+        <div class="container">
+        <div style="height: 400px;">
+        <h2>GUESS THE NUMBER</h2>
+        <br>
+        <label style="margin-bottom: 20px;">TRY! WRITE SOME NUMBER!</label>
+        <br>
+        <input type="text" name="number" id="number" value="" autocomplete="off">
+        <button class="btn" onclick="btn();" type="submit">Guess</button> 
+        <p id="guess"></p>
+        <br>
+        <button class="again" onclick="again();">TRY AGAIN</button>
+        <br>
+        <details class="help" type="submit">
+            <summary>HELP!</summary>
+            <p style="margin-top: -2px;">The number is between 0 and 10.</p>
+            <button onclick="number();" type="submit" class="show">Show number</button>
+            <p id="result"></p>
+        </details>
+    <script type="text/javascript" src="index.js" async></script>
+</div>
+</div>
+</div>
+</body>
+
+</html>
